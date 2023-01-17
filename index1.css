@@ -1,0 +1,267 @@
+body{
+    background-image: url(./bacimg.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    justify-content: space-between;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+header{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.nav{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.parent{
+    display: flex;
+}
+.child1{
+    width: 50%;
+    color: white;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+h1{
+    font-size: 100px;
+    margin: 0px;
+}
+button{
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    border: 1px;
+    border-radius: 20px;
+}
+.box{
+    height: 220px;
+    width: 210px;
+    border: 1px;
+    border-radius: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+    line-height: 25px;  
+}
+.child2{
+    display: grid;
+    grid-template-columns: repeat(2,180px);
+    grid-gap:60px;
+    column-gap: 100px;
+}
+.box1{
+    background-image: url(./one.jfif);
+    background-size: cover;
+}
+.box2{
+    background-image: url(./two.jfif);
+    background-size: cover;
+}
+.box3{
+    background-image: url(./three.jfif);
+    background-size: cover;
+}
+.box4{
+    background-image: url(./four.jfif);
+    background-size: cover;
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+@media only screen and (min-width:400px) and (max-width:600px)
+{
+        body{
+             background-image: url(./shara\ desert.jpg);
+             background-size: cover;    
+        }
+        img{
+            height: 40px;
+            width: 40px;
+            margin-left: 10px;
+            display: inline;
+        }
+        header{
+            margin-top: 0px;
+            margin-left: 0px;
+           }
+        .nav{
+            height: 40px;
+           display: flex;
+            font-size: 10px;
+        }
+        .child1{
+            margin-left: 10px;
+            margin-top: 50px;
+            width: 300px;  
+        }
+
+        h1{
+            font-size: 40px;
+            color: white;
+        }
+        .child2{
+            display: grid;
+            grid-template-columns:auto;
+            width: 300px;
+            grid-gap:20px;
+            position: absolute;
+            top: 380px;
+            left: 56px;
+            right: 16px;
+            align-items: center;
+        }
+        .container1{
+            justify-content:space-between;
+        }
+        .box{
+            width: auto;
+        }
+        .box1{
+            background-image: url(./pic-1.png);
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .box1:hover{
+            transform: translateY(-10px);
+        }
+        .box2{
+            background-image: url(./pic-2.png);
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .box2:hover{
+            transform: translateY(-10px);
+        }
+        .box3{
+            background-image: url(./pic-3.png);
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .box3:hover{
+            transform: translateY(-10px);
+        }
+        .box4{
+            background-image: url(./pic-4.png);
+            background-size: cover;
+            border-radius: 15px;
+        }
+        .box4:hover{
+            transform: translateY(-10px);
+        }
+        button{
+            width: 190px;
+            height: 30px;
+            text-align: center;
+            border: 1px;
+            border-radius: 20px;
+        }
+}
+@media only screen and (min-width:600px) and (max-width:900px)
+{
+    body{
+        background-image: url(./shara\ desert.jpg);
+        background-size: cover;
+   }
+   img{
+       height: 70px;
+       width: 70px;
+       margin-left: 30px;
+       display: inline;
+   }
+   .nav{
+       margin-right: 0px;
+       margin-top: 0px;
+       font-size: 20px;
+       display: flex;   
+   }
+   .child1{
+       margin-left: 10px;
+       font-size: 20px;
+       display: block;
+       width: 700px;
+       margin-top: 0px;
+
+   }
+   h1{
+       font-size: 70px;
+       color: white;
+   }
+   .container2{
+    display: flex;
+    margin-left: 20px;
+   }
+   header{
+    margin-top: 0px;
+    margin-left: 0px;
+   }
+   .child2{
+       display: grid;
+       grid-template-columns:auto;
+       width: 450px;
+       grid-gap:20px;
+       position: absolute;
+       top: 400px;
+       left: 80px;
+       right: 16px;
+       align-items: center;
+   }
+   .box{
+       width: auto;
+   }
+   .box1{
+       background-image: url(./pic-1.png);
+       background-size: cover;
+       background-position: center;
+       border-radius: 15px;
+       font-size: 25px;
+   }
+   .box1:hover{
+       transform: translateY(-10px);
+   }
+   .box2{
+       background-image: url(./pic-2.png);
+       background-size: cover;
+       border-radius: 15px;
+       background-position: center;
+       font-size: 25px;
+   }
+   .box2:hover{
+       transform: translateY(-10px);
+   }
+   .box3{
+       background-image: url(./pic-3.png);
+       background-size: cover;
+       border-radius: 15px;
+       background-position: center;
+       font-size: 25px;
+   }
+   .box3:hover{
+       transform: translateY(-10px);
+   }
+   .box4{
+       background-image: url(./pic-4.png);
+       background-size: cover;
+       border-radius: 15px;
+       background-position: center;
+       font-size: 25px;
+   }
+   .box4:hover{
+       transform: translateY(-10px);
+   }
+   button{
+       width: 250px;
+       height: 50px;
+       text-align: center;
+       border: 1px;
+       border-radius: 40px;
+   }
+}
+
+
